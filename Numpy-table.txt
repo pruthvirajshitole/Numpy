@@ -1,0 +1,113 @@
+'''
+
+| Function Name              | Definition                                                                                            |
+|----------------------------|-------------------------------------------------------------------------------------------------------|
+| np.array()                 | Creates a NumPy array from a Python list or tuple.                                                    |
+| np.zeros()                 | Returns a new array of given shape and type, filled with zeros.                                       |
+| np.ones()                  | Returns a new array of given shape and type, filled with ones.                                        |
+| np.arange()                | Returns an array with evenly spaced values within a specified range.                                  |
+| np.linspace()              | Returns an array of evenly spaced values over a specified range, with a specified number of points.   |
+| np.reshape()               | Gives a new shape to an array without changing its data.                                              |
+| np.concatenate()           | Joins two or more arrays along an existing axis.                                                      |
+| np.split()                 | Splits an array into multiple sub-arrays.                                                             |
+| np.vstack()                | Stacks arrays in sequence vertically (row-wise).                                                      |
+| np.hstack()                | Stacks arrays in sequence horizontally (column-wise).                                                 |
+| np.sort()                  | Sorts an array in ascending order.                                                                    |
+| np.copy()                  | Returns a new array that is a copy of the original array.                                             |
+| np.unique()                | Returns the sorted unique elements of an array.                                                       |
+
+| np.sum()                   | Returns the sum of all elements or along a specific axis in the array.                                |
+| np.mean()                  | Returns the mean of the elements along the specified axis.                                            |
+| np.median()                | Returns the median of the array elements along the specified axis.                                    |
+| np.std()                   | Returns the standard deviation of the array elements along the specified axis.                        |
+| np.var()                   | Returns the variance of the array elements along the specified axis.                                  |
+| np.min()                   | Returns the minimum value from the array, or along a specific axis.                                   |
+| np.max()                   | Returns the maximum value from the array, or along a specific axis.                                   |
+| np.argmin()                | Returns the index of the minimum value in the array.                                                  |
+| np.argmax()                | Returns the index of the maximum value in the array.                                                  |
+| np.flatten()               | Flattens the array into a one-dimensional array (similar to ravel()).                                 |
+| np.argsort()               | Returns the indices that would sort an array.                                                         |
+| np.dot()                   | Computes the dot product of two arrays.                                                               |
+| np.cross()                 | Computes the cross product of two arrays.                                                             |
+| np.linalg.inv()            | Computes the (multiplicative) inverse of a matrix.                                                    |
+| np.eye()                   | Returns a 2D array with ones on the diagonal and zeros elsewhere.                                     |
+| np.ravel()                 | Flattens a multi-dimensional array into a one-dimensional array.                                      |
+| np.transpose()             | Permutes the dimensions of an array.                                                                  |
+
+
+| Function Name              | Definition                                                                                            |
+|----------------------------|-------------------------------------------------------------------------------------------------------|
+| np.random.rand()           | Generates an array of random numbers between 0 and 1 with the given shape.                            |
+| np.random.randint()        | Generates random integers between a specified low (inclusive) and high (exclusive) range.             |
+| np.random.random()         | Generates a random float between 0 and 1.                                                             |
+| np.random.choice()         | Generates a random sample from a given 1D array, with or without replacement.                         |
+| np.random.shuffle()        | Shuffles the elements of an array in place (modifies the original array).                             |
+| np.random.randn()          | Generates an array of random numbers from a standard normal distribution (mean 0, std deviation 1).   |
+| np.random.seed()           | Sets the seed for the random number generator to ensure reproducibility of random number sequences.   |
+
+| np.random.permutation()    | Returns a permuted sequence or a random permutation of elements in an array.                                         |
+| np.random.normal()         | Generates random samples from a normal (Gaussian) distribution with specified mean and standard deviation.           |
+| np.random.binomial()       | Generates random samples from a binomial distribution, given the number of trials and probability of success.        |
+| np.random.poisson()        | Generates random samples from a Poisson distribution with a specified lambda (mean rate of occurrence).              |
+| np.random.uniform()        | Generates random numbers from a uniform distribution over a specified range (low, high).                             |
+| np.random.exponential()    | Generates random samples from an exponential distribution with a specified scale parameter (1/lambda).               |
+| np.random.chisquare()      | Generates random samples from a chi-square distribution with specified degrees of freedom.                           |
+| np.random.gamma()          | Generates random samples from a gamma distribution with specified shape and scale parameters.                        |
+| np.random.beta()           | Generates random samples from a beta distribution with specified alpha and beta shape parameters.                    |
+| np.random.weibull()        | Generates random samples from a Weibull distribution with a specified shape parameter.                               |
+| np.random.multinomial()    | Generates random samples from a multinomial distribution with specified number of trials and probabilities.          |
+| np.random.laplace()        | Generates random samples from a Laplace distribution (double exponential distribution) with specified mean and scale.|
+| np.random.triangular()     | Generates random samples from a triangular distribution with specified lower, mode, and upper parameters.            |
+| np.random.randin()         | Generates random samples from a discrete uniform distribution with specified low and high range values.              |
+| np.random.dirichlet()      | Generates random samples from a Dirichlet distribution, often used in Bayesian statistics and machine learning.      |
+
+
+| Function Name        | Definition                                                                                                                 |
+|----------------------|----------------------------------------------------------------------------------------------------------------------------|
+| np.add()             | Adds two arrays element-wise.                                                                                              |
+| np.subtract()        | Subtracts the second array from the first array element-wise.                                                              |
+| np.multiply()        | Multiplies two arrays element-wise.                                                                                        |
+| np.divide()          | Divides the first array by the second array element-wise.                                                                  |
+| np.floor()           | Rounds each element of the array down to the nearest integer.                                                              |
+| np.ceil()            | Rounds each element of the array up to the nearest integer.                                                                |
+| np.round()           | Rounds each element of the array to the nearest integer or specified decimal places.                                       |
+| np.fmod()            | Returns the remainder of division (i.e., modulus) for two arrays element-wise.                                             |
+| np.remainder()       | Similar to fmod(), returns the element-wise remainder of division.                                                         |
+| np.sqrt()            | Computes the square root of each element in the array element-wise.                                                        |
+| np.exp()             | Computes the exponential (e^x) of each element in the array element-wise.                                                  |
+| np.log()             | Computes the natural logarithm (base e) of each element in the array element-wise.                                         |
+| np.log10()           | Computes the base-10 logarithm of each element in the array element-wise.                                                  |
+| np.log2()            | Computes the base-2 logarithm of each element in the array element-wise.                                                   |
+| np.sin()             | Computes the sine of each element in the array element-wise (in radians).                                                  |
+| np.cos()             | Computes the cosine of each element in the array element-wise (in radians).                                                |
+| np.tan()             | Computes the tangent of each element in the array element-wise (in radians).                                               |
+| np.sinh()            | Computes the hyperbolic sine of each element in the array element-wise.                                                    |
+| np.cosh()            | Computes the hyperbolic cosine of each element in the array element-wise.                                                  |
+| np.tanh()            | Computes the hyperbolic tangent of each element in the array element-wise.                                                 |
+| np.abs()             | Computes the absolute value of each element in the array element-wise.                                                     |
+| np.maximum()         | Returns the element-wise maximum of two arrays.                                                                            |
+| np.minimum()         | Returns the element-wise minimum of two arrays.                                                                            |
+| np.equal()           | Compares two arrays element-wise for equality (returns a boolean array).                                                   |
+| np.not_equal()       | Compares two arrays element-wise for inequality (returns a boolean array).                                                 |
+| np.less()            | Compares two arrays element-wise to check if elements in the first array are less than those in the second.                |
+| np.less_equal()      | Compares two arrays element-wise to check if elements in the first array are less than or equal to those in the second.    |
+| np.greater()         | Compares two arrays element-wise to check if elements in the first array are greater than those in the second.             |
+| np.greater_equal()   | Compares two arrays element-wise to check if elements in the first array are greater than or equal to those in the second. |
+| np.isfinite()        | Returns a boolean array indicating whether each element is finite (not infinity or NaN).                                   |
+| np.isnan()           | Returns a boolean array indicating whether each element is NaN (Not a Number).                                             |
+| np.isinf()           | Returns a boolean array indicating whether each element is infinite (either positive or negative infinity).                |
+| np.isreal()          | Returns a boolean array indicating whether each element is a real number.                                                  |
+| np.sign()            | Returns the sign of each element in the array (-1, 0, or 1 for negative, zero, or positive elements).                      |
+| np.clip()            | Clips (limits) the values in the array to a specified range, setting any values outside the range to the nearest boundary. |
+| np.ptp()             | Computes the range (peak-to-peak) of the elements in the array (max - min).                                                |
+| np.sum()             | Computes the sum of all elements in the array (or along a specified axis).                                                 |
+| np.prod()            | Computes the product of all elements in the array (or along a specified axis).                                             |
+| np.cumsum()          | Computes the cumulative sum of the elements along a specified axis.                                                        |
+| np.cumprod()         | Computes the cumulative product of the elements along a specified axis.                                                    |
+| np.diff()            | Computes the n-th discrete difference along a specified axis.                                                              |
+| np.angle()           | Computes the phase angle (in radians) of a complex number or each element in the array.                                    |
+| np.real()            | Extracts the real part of each element in the array.                                                                       |
+| np.imag()            | Extracts the imaginary part of each element in the array.                                                                  |
+
+
+'''

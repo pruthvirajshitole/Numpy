@@ -1,0 +1,89 @@
+Matrices in NumPy
+--------------------------------------------------------------------------------------
+Definition:
+A matrix is a two-dimensional array in NumPy, 
+represented as a collection of rows and columns. 
+It is used for various mathematical operations 
+like addition, subtraction, multiplication, and inversion.
+
+------------------
+Creating Matrices  
+------------------
+import numpy as np  
+
+arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])  
+print(arr)  
+
+
+-------------------------------------------------------------------------------------
+
+------------------
+ Matrix Operations  
+------------------
+
+ 
+1-Addition of Matrices  
+------------------------
+A = np.array([[1, 2], [3, 4]])  
+B = np.array([[5, 6], [7, 8]])  
+C = A + B  
+print(C)  
+
+2-Subtraction of Matrices  
+----------------------------
+A = np.array([[10, 20], [30, 40]])  
+B = np.array([[1, 2], [3, 4]])  
+C = A - B  
+print(C)  
+
+3-Matrix Multiplication (Element-wise)  
+----------------------------------------
+A = np.array([[1, 2], [3, 4]])  
+B = np.array([[2, 0], [1, 2]])  
+C = A * B  
+print(C)  
+
+4-Matrix Dot Product  
+-----------------------
+A = np.array([[1, 2], [3, 4]])  
+B = np.array([[2, 0], [1, 2]])  
+C = np.dot(A, B)  
+print(C)  
+
+5-Matrix Transpose  
+--------------------
+A = np.array([[1, 2, 3], [4, 5, 6]])  
+B = A.T  
+print(B)  
+
+6-Matrix Inversion  
+-------------------
+A = np.array([[1, 2], [3, 4]])  
+B = np.linalg.inv(A)  
+print(B)  
+
+7-Matrix Determinant  
+----------------------
+A = np.array([[2, 3], [1, 4]])  
+det = np.linalg.det(A)  
+print(det)  
+
+8-Eigenvalues and Eigenvectors  
+---------------------------------
+A = np.array([[4, -2], [1, 1]])  
+eigenvalues, eigenvectors = np.linalg.eig(A)  
+print(eigenvalues)  
+print(eigenvectors)  
+
+--------------------------------------------------------------------------------------------
+---------------------------
+ Applications of Matrices  
+---------------------------
+
+- Image processing  
+- Data transformations  
+- Solving systems of linear equations  
+- Graph and network analysis
+
+--------------------------------------------------------------------------------------------
+
